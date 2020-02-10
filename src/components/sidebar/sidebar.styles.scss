@@ -1,0 +1,45 @@
+.sidebar {
+  display: block;
+  width: 49px;
+  height: 858px;
+  background-color: transparent;
+
+  .sidebar-main {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .side {
+      display: block;
+      margin-top: 25px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .analytics {
+      width: 25px;
+      height: 25px;
+      object-fit: contain;
+    }
+
+    .happy {
+      width: 25px;
+      height: 25px;
+      object-fit: contain;
+    }
+
+    .schedule {
+      width: 25px;
+      height: 25px;
+      object-fit: contain;
+    }
+
+    .comment {
+      width: 25px;
+      height: 25px;
+      object-fit: contain;
+    }
+  }
+}
