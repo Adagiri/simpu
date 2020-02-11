@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="62" height="20" viewBox="0 0 62 20">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#FFF" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500">
+            <tspan x="21" y="14.4">Simpu</tspan>
+        </text>
+        <path fill="#E8EAED" d="M13.937 3.103c.492 2.408-1.987 6.903-4.845 10.468 1.465 2.144 1.965 3.647 1.499 4.51-.93 1.72-6.289 2.042-8.309.644C-.48 17.69-.845 6.795 1.794 3.103c2.77-3.879 11.247-4.388 12.143 0z"/>
+        <path fill="#FFF" d="M1.794 3.103c2.77-3.879 11.247-4.388 12.143 0 .897 4.387-8.068 15.702-11.22 15.702-3.152 0-3.695-11.824-.923-15.702z"/>
+    </g>
+</svg>

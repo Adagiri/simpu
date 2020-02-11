@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/simpu/static/css/main.c231336a.chunk.css",
+    "main.js": "/simpu/static/js/main.bc58b8a0.chunk.js",
+    "main.js.map": "/simpu/static/js/main.bc58b8a0.chunk.js.map",
+    "runtime-main.js": "/simpu/static/js/runtime-main.259d6f9a.js",
+    "runtime-main.js.map": "/simpu/static/js/runtime-main.259d6f9a.js.map",
+    "static/js/2.e9f1ad4f.chunk.js": "/simpu/static/js/2.e9f1ad4f.chunk.js",
+    "static/js/2.e9f1ad4f.chunk.js.map": "/simpu/static/js/2.e9f1ad4f.chunk.js.map",
+    "index.html": "/simpu/index.html",
+    "precache-manifest.b086330b3e41102b92e8144fa796e62a.js": "/simpu/precache-manifest.b086330b3e41102b92e8144fa796e62a.js",
+    "service-worker.js": "/simpu/service-worker.js",
+    "static/css/main.c231336a.chunk.css.map": "/simpu/static/css/main.c231336a.chunk.css.map",
+    "static/js/2.e9f1ad4f.chunk.js.LICENSE.txt": "/simpu/static/js/2.e9f1ad4f.chunk.js.LICENSE.txt",
+    "static/media/analytics.10a2082f.svg": "/simpu/static/media/analytics.10a2082f.svg",
+    "static/media/attachment.svg": "/simpu/static/media/attachment.eec0e019.svg",
+    "static/media/comment.fa41c1f6.svg": "/simpu/static/media/comment.fa41c1f6.svg",
+    "static/media/happy.4e738fd4.svg": "/simpu/static/media/happy.4e738fd4.svg",
+    "static/media/logo.8ca5009b.svg": "/simpu/static/media/logo.8ca5009b.svg",
+    "static/media/schedule.3c8e7dfc.svg": "/simpu/static/media/schedule.3c8e7dfc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.259d6f9a.js",
+    "static/js/2.e9f1ad4f.chunk.js",
+    "static/css/main.c231336a.chunk.css",
+    "static/js/main.bc58b8a0.chunk.js"
+  ]
+}
