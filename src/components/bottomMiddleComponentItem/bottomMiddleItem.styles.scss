@@ -1,0 +1,113 @@
+.middleMain {
+    margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32.5px;
+
+  .middleMainTop {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    .middleName {
+      height: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #212242;
+    }
+
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .mark6 {
+        width: 16px;
+        height: 16px;
+        object-fit: contain;
+        margin-right: 5px;
+        position: absolute;
+        left: -20px;
+        bottom: 0.75px;
+      }
+
+      .topReply {
+          margin-right: 49px;
+        position: relative;
+        height: 18px;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #6554c0;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  .middleMainMiddle {
+    .midleRectangle {
+      width: 677px;
+      height: 120px;
+      border-radius: 10.1px;
+      border: solid 0.8px #e9edf0;
+      background-color: #fbfdff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 11px;
+      border-bottom-left-radius: 0px;
+
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .extranee {
+      width: 677px;
+      height: 120px;
+      border-radius: 10.1px;
+      border: solid 0.8px #e9edf0;
+      background-color: #6554c0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 11px;
+      border-bottom-left-radius: 0px;
+    }
+  }
+
+  .mTime {
+    height: 10px;
+    opacity: 0.5;
+    font-size: 11.8px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #5e6c84;
+    display: flex;
+    align-items: center;
+
+
+    i {
+        font-size:13px;
+        width: 15px;
+        height: 9px;
+        color: #120942;
+        margin-left: 4px;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 .main {
   display: block;
   width: 1391px;
-  height: 858px;
+  height: 1008px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -160,6 +160,20 @@
     border-right: solid 0.7px #e9edf0;
     border-bottom: solid 0.7px #e9edf0;
     height: 761.5px;
+
+    .whatsapp-business {
+      margin-bottom: 51px;
+      width: 411px;
+  height: 19px;
+  margin-left: 32.5px;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #212242;
+    }
   }
 
   .bottomRight {

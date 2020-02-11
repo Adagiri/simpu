@@ -2,7 +2,9 @@
 import React from "react";
 import "./main.styles.scss";
 import BottomLeftItem from "../bottomLeftComponentItem/bottomLeftItem.component"
+import BottomMiddleItem from "../bottomMiddleComponentItem/bottomMiddleItem.component";
 import bottomLeftData from "./bottomLeftData";
+import bottomMiddleData from "./bottomMiddleData.js";
 import Clock from "../../assets/png/32.png";
 import Bin from "../../assets/png/32_2.png";
 import File from "../../assets/png/32_3.png";
@@ -14,7 +16,7 @@ class Main extends React.Component {
 
     this.state = {
       bottomLeftData,
-      bottomMiddleData: null,
+      bottomMiddleData,
       bottomRightData: null
     };
   }
@@ -59,7 +61,13 @@ class Main extends React.Component {
           }
           
           </div>
-          <div className="bottomMiddle">bottomMiddle</div>
+          <div className="bottomMiddle">
+          <p className="whatsapp-business">WhatsApp for Business: Don't forget to start your free trial</p>
+         
+          {
+            this.state.bottomMiddleData.map(({id, ...rest}) => <BottomMiddleItem key={ id } {...rest} />)
+          }
+          </div>
           <div className="bottomRight">bottomRight</div>
         </div>
       </div>
