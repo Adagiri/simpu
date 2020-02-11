@@ -17,7 +17,7 @@ const Header = () => {
           <span className="organisation-name">Organisation Name</span>
         </div>
         <div>
-          <i class="fas fa-angle-down icon-color" ></i>
+          <i className="fas fa-angle-down icon-color" ></i>
         </div>
       </div>
     </div>

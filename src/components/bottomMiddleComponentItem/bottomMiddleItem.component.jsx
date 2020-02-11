@@ -26,7 +26,7 @@ const BottomMiddleItem = ({ name, Icon, reply, paragraph, time, mark , color }) 
       </div>
       <p className="mTime">
         {time}
-        {mark ? <i class="fas fa-check-double"></i> : ""}
+        {mark ? <i className="fas fa-check-double"></i> : ""}
       </p>
     </div>
   );

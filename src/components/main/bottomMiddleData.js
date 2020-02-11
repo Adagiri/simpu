@@ -2,6 +2,7 @@ import Icon from "../../assets/png/16@2x.png";
 
 const bottomMiddleData = [
     {
+        id: 1,
         name: "Zarela Reed",
         Icon,
         reply: "Reply this conversation",
@@ -11,6 +12,7 @@ const bottomMiddleData = [
         color: false
     },
     {
+        id: 2,
         name: "Collins Iheagwara",
         Icon: false,
         reply: false,
@@ -20,6 +22,7 @@ const bottomMiddleData = [
         color: true
     },
     {
+        id: 3,
         name: "Collins Iheagwara",
         Icon: false,
         reply: false,

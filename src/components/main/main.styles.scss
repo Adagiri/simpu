@@ -1,7 +1,7 @@
 .main {
   display: block;
   width: 1391px;
-  height: 1008px;
+  height: 1058px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -16,10 +16,11 @@
   }
 
   .top span {
-    margin-top: 21px;
+    display: block;
+    margin-top: 17px;
     margin-left: 21px;
     width: 133px;
-    height: 25px;
+    height: 54px;
     font-family: "Catamaran", sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -38,13 +39,14 @@
     display: flex;
 
     .middle-left {
-      width: 365.5px;
+      width: 353px;
       margin-left: 32px;
       border: none;
       border-right: solid 0.7px #e9edf0;
       display: flex;
       justify-content: flex-start;
       align-items: center;
+      height: 54px;
 
       .rectangled {
         width: 52px;
@@ -55,7 +57,8 @@
         align-items: center;
         justify-content: center;
         padding-left: 10px;
-        padding-bottom: 2px;
+        padding-top: 8px;
+        margin-bottom: 8px;
       }
 
       .span {
@@ -70,6 +73,7 @@
         color: #595e8a;
         font-family: "Catamaran", sans-serif;
         cursor: pointer;
+        margin-bottom: 13px;
       }
 
       .a {
@@ -107,7 +111,7 @@
         align-items: center;
         justify-content: flex-end;
         margin-right: 10px;
-        
+
         .rectangle {
           width: 67px;
           height: 23px;
@@ -140,48 +144,191 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-  .bottomLeft {
-    padding-top: 20px;
-    width: 422px;
-    border: none;
-    border-right: solid 0.7px #e9edf0;
-    border-bottom: solid 0.7px #e9edf0;
-    height: 761.5px;
-    display: flex;
-    align-items: center;
-  
-    flex-direction: column;
-  }
 
-  .bottomMiddle {
-    width: 836px;
-    border: none;
-    border-right: solid 0.7px #e9edf0;
-    border-bottom: solid 0.7px #e9edf0;
-    height: 761.5px;
-
-    .whatsapp-business {
-      margin-bottom: 51px;
-      width: 411px;
-  height: 19px;
-  margin-left: 32.5px;
-  font-size: 17px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #212242;
+    .bottomLeft {
+      padding-top: 20px;
+      width: 422px;
+      border: none;
+      border-right: solid 0.7px #e9edf0;
+      border-bottom: solid 0.7px #e9edf0;
+      height: 761.5px;
+      display: flex;
+      align-items: center;
+      height: 942px;
+      flex-direction: column;
     }
-  }
 
-  .bottomRight {
-    width: 277px;
-    border: none;
-    border-right: solid 0.7px #e9edf0;
-    border-bottom: solid 0.7px #e9edf0;
-    height: 761.5px;
-  }
+    .bottomMiddle {
+      width: 836px;
+      border: none;
+      border-right: solid 0.7px #e9edf0;
+      border-bottom: solid 0.7px #e9edf0;
+      height: 942px;
+
+      .whatsapp-business {
+        margin-bottom: 51px;
+        width: 411px;
+        height: 19px;
+        margin-left: 32.5px;
+        font-size: 17px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #212242;
+      }
+    }
+
+    .bottomRight {
+      width: 277px;
+      border: none;
+      border-right: solid 0.7px #e9edf0;
+      border-bottom: solid 0.7px #e9edf0;
+      height: 942px;
+
+      .base {
+        height: 19px;
+        font-size: 15px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #212242;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        margin-top: 440px;
+
+        img {
+          width: 28px;
+          height: 28px;
+          margin-bottom: 3px;
+      margin-right: 3px;
+          cursor: pointer;
+        }
+
+        .comment-rectangle {
+          width: 227px;
+          height: 40px;
+          border-radius: 24px;
+          background-color: #f6fafd;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px;
+
+          div {
+            width: 24px;
+            height: 24px;
+            box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.06),
+              inset 0 -2px 0 0 rgba(0, 0, 0, 0.1);
+            background-color: #6554c0;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            i {
+              width: 10px;
+              height: 9px;
+              font-size: 10px;
+              color: white;
+              margin-right: 3px;
+              z-index: 2;
+
+            }
+          }
+        }
+      }
+      .comments {
+        width: 76px;
+        height: 19px;
+        font-size: 15px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #212242;
+        margin-left: 10px;
+      }
+
+      .commentary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        img {
+          width: 28px;
+          height: 28px;
+          margin-right: 3px;
+          margin-bottom: 40px;
+          cursor: pointer;
+        }
+
+        .comment-rectangle {
+          width: 227px;
+          height: 67px;
+          border-radius: 24px;
+          background-color: #f6fafd;
+        }
+
+        .comment-text {
+          width: 208px;
+          height: 45px;
+          font-size: 12px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #595e8a;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: left;
+          padding-left: 15px;
+        }
+      }
+    }
+
+    .text-area {
+      width: 690px;
+      height: 85px;
+      border-radius: 10.1px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.04);
+      border: solid 0.8px #e9edf0;
+      text-align: left;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 32.5px;
+      margin-top: 170px;
+
+      p {
+        margin-left: 16px;
+        width: 120px;
+        height: 18px;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #595e8a;
+      }
+
+      .attachments {
+        width: 17px;
+        height: 15px;
+        opacity: 0.35;
+        margin-left: 16px;
+        margin-bottom: 14px;
+        cursor: pointer;
+      }
+    }
   }
 }
