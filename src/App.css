@@ -5,6 +5,8 @@
   height: 900px;
   background-color: #f6fafd;
   font-family: 'Catamaran', sans-serif;
+  border: solid 0.7px #e9edf0;
+  margin-bottom: 20px;
 }
 
 .bottom {

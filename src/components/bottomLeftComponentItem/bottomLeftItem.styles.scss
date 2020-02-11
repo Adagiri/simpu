@@ -1,0 +1,94 @@
+.mainLeftArea {
+    width: 320.5px;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+border: none;
+border-bottom: solid 0.7px #e9edf0;
+margin-bottom: 14px;
+position: relative;
+margin-right: 50px;
+.img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    margin-right: 8px;
+}
+
+.middleBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.middleBottom .name {
+    height: 1px;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #212242;
+    margin-top: 0px;
+}
+.middleBottom .summary {
+    width: 249px;
+    height: 1px;
+    font-size: 13px;
+    font-weight: 550;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #212242;
+}
+
+.middleBottom .note {
+    width: 247px;
+    height: 20px;
+    opacity: 0.75;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #595e8a;
+}
+
+.rightBottom {
+    top: -7px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    right: 19px;
+    position: absolute;
+}
+
+.rightBottom .time {
+    width: 27px;
+    height: 13px;
+    opacity: 0.5;
+    font-size: 10px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #5e6c84;
+    margin-left: 0px;
+}
+.rightBottom img {
+    width: 13px;
+    height: 13px;
+    object-fit: contain;
+    opacity: 0.75;
+    margin-left: 0px;
+  }
+}
