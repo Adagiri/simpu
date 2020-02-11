@@ -129,16 +129,14 @@ class Main extends React.Component {
               </div>
             </div>
             <div className="base">
-            <img src={Smiley} />
-            <div className="comment-rectangle">
-              <p className="comment-text">
-                Write your comment....
-              </p>
-              <div className="purple">
-              
-              <i class="fas fa-paper-plane"></i></div>
+              <img src={Smiley} />
+              <div className="comment-rectangle">
+                <p className="comment-text">Write your comment....</p>
+                <div className="purple">
+                  <i class="fas fa-paper-plane"></i>
+                </div>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
